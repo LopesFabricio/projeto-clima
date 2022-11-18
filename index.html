@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form class="busca">
+        <div class="titulo">Confira o clima de uma cidade:</div>
+        <input type="search" id="cidadeInput" placeholder="Digite uma cidade" />
+        <button id="btn">Buscar</button>
+      </form>
+
+      <div class="resultado hide">
+        <hr />
+        <h2>
+          <span id="cidade"></span>
+        </h2>
+        <p id="temperatura"></p>
+
+        <div class="condicoes-container">
+          <p id="condicoes"></p>
+          <img src="" alt="" width="60px" id="condicoesImg" />
+        </div>
+
+        <div class="detalhes-container">
+          <p id="umidade"></p>
+          <p id="vento"></p>
+          <div class="aviso"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
