@@ -25,15 +25,13 @@ body{
 
 @media (max-width: 400px){
     .container{
-        width: 320px;
+        width: 300px;
     }
     #cidadeInput{
-        width: 100%;
-        
+        margin-bottom: 20px;
+        width: 100px;
     }
-    #btn{
-        margin-top: 20px;
-    }
+   
 
    
 }
